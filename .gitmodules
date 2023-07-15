@@ -1,0 +1,3 @@
+[submodule "TrafficSystemMockJs"]
+	path = TrafficSystemMockJs
+	url = https://github.com/Norlandz/TrafficSystemMockJs.git
