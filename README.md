@@ -1,0 +1,1 @@
+- See the submodule https://github.com/Norlandz/TrafficSystemMockJs for documentation
