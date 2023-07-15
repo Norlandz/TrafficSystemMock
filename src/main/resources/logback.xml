@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <include resource="/org/springframework/boot/logging/logback/base.xml" />
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+<!-- not needed with this version    <withJansi>true</withJansi> -->
+    <encoder>
+      <pattern>%d{HH:mm:ss/SSS} [%thread] %highlight(%-5level) %cyan(%logger{15}) - %msg %n</pattern>
+    </encoder>
+  </appender>
+  <root level="info">
+    <appender-ref ref="STDOUT" />
+  </root>
+  <logger name="com.redfrog.trafficsm" level="debug" />
+<!--   <logger name="com.redfrog.trafficsm.repositorytest.CreateRoadwayTestService" level="trace" /> -->
+<!--   <logger name="com.redfrog.trafficsm.service.TrafficAnalyzerBuilder" level="debug" /> -->
+</configuration>
